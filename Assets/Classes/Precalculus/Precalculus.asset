@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3a14dd39bec5ac438bc4a4def2f92be, type: 3}
+  m_Name: Precalculus
+  m_EditorClassIdentifier: Assembly-CSharp::ClassSO
+  className: Pre-Calculus
+  subject: 3
+  assignedTutor: {fileID: 11400000, guid: 2035fef82339d484293fb45a341484b6, type: 2}
+  units:
+  - {fileID: 11400000, guid: 979fe1fe9c6e93840b8f7810d3731edc, type: 2}
+  - {fileID: 11400000, guid: cf388eb55c988394c85bc1a82e41813c, type: 2}
+  - {fileID: 11400000, guid: 24bd0450cfdb4cd498f8ba01d8da94b1, type: 2}
+  - {fileID: 11400000, guid: 3770a9320a57e3b4aab30c34d60d54c1, type: 2}
+  - {fileID: 11400000, guid: 0a53d30c531adfa46bbbce52a287a418, type: 2}
+  - {fileID: 11400000, guid: aff0d1f4de725b44f81be96ab74c0bdb, type: 2}
