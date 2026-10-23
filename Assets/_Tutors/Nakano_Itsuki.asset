@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dea4301ec27dae489687eac71f3d9d3, type: 3}
+  m_Name: Nakano_Itsuki
+  m_EditorClassIdentifier: Assembly-CSharp::TutorData
+  tutorName: Itsuki
+  bio: Specializes in Math
+  nameplateColor: {r: 0.6313726, g: 0.0627451, b: 0.0627451, a: 0}
+  defaultSprite: {fileID: -2399188787381315179, guid: cb32686670e073f45bcac806709c264c, type: 3}
+  happySprite: {fileID: -9147440474401463575, guid: 840bbc13f6b336f4ebc90f21691784ef, type: 3}
+  thinkingSprite: {fileID: 1037076101126645056, guid: 04d01fc694d7cea4dbb2336dcf643cab, type: 3}
+  wrongAnswerSprite: {fileID: 4182366234362635046, guid: cff870c5194241a4d86fe7f998bfdcc2, type: 3}
+  avatarIcon: {fileID: 819290055355796575, guid: 4dad064284ab58f4493c387151d4f9c6, type: 3}
+  greetingSound: {fileID: 0}
+  subjectsTaught: 03000000
