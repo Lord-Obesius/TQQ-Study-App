@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TutorData
   tutorName: Nino
   bio: Specializes in Science
-  nameplateColor: {r: 0.9433962, g: 0.16464934, b: 0.52608645, a: 1}
-  defaultSprite: {fileID: 0}
-  happySprite: {fileID: 0}
-  thinkingSprite: {fileID: 0}
-  wrongAnswerSprite: {fileID: 0}
-  avatarIcon: {fileID: 0}
+  nameplateColor: {r: 0.7019608, g: 0.043137256, b: 0.30588236, a: 1}
+  defaultSprite: {fileID: -5566549880607049189, guid: e099aa4615e8c474b8c2d9134181bd65, type: 3}
+  happySprite: {fileID: 1330581624047012154, guid: 3e237d85002db5f42ae936a51f14e4aa, type: 3}
+  thinkingSprite: {fileID: 2080092180474710742, guid: 50b2cb322a933f845a43a3a5de931cce, type: 3}
+  wrongAnswerSprite: {fileID: -2487350228201418328, guid: 2e45af7b6118dbb4a97a7703b195f1ba, type: 3}
+  avatarIcon: {fileID: 1015332131899022771, guid: c0655fc85e901354eaa42ae40c97cc83, type: 3}
   greetingSound: {fileID: 0}
   subjectsTaught: 04000000

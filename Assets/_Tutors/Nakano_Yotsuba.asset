@@ -15,11 +15,11 @@ MonoBehaviour:
   tutorName: Yotsuba
   bio: Doesnt really excel in anything but will do her best to teach you any subject
     you wish
-  nameplateColor: {r: 0.04261927, g: 0.6792453, b: 0, a: 1}
-  defaultSprite: {fileID: 0}
-  happySprite: {fileID: 0}
-  thinkingSprite: {fileID: 0}
-  wrongAnswerSprite: {fileID: 0}
-  avatarIcon: {fileID: 0}
+  nameplateColor: {r: 0.20392157, g: 0.91764706, b: 0.3647059, a: 1}
+  defaultSprite: {fileID: -6088263895662439698, guid: f338a2f9da058b54284179ecd4b60736, type: 3}
+  happySprite: {fileID: 8181661956647240307, guid: 49cb4ef022870034d83f9088ceda612f, type: 3}
+  thinkingSprite: {fileID: 8826282428014049308, guid: 068a0e39b34c4444986b5d34822a55a8, type: 3}
+  wrongAnswerSprite: {fileID: 4231326935018188060, guid: 1df791ebebefc554885d04f71ae2cd1a, type: 3}
+  avatarIcon: {fileID: -1111553783292992443, guid: 1baffa4de7d152242978d5960f7a7abc, type: 3}
   greetingSound: {fileID: 0}
   subjectsTaught: 000000000100000002000000030000000400000005000000
