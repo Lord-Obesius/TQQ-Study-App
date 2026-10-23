@@ -12,13 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dea4301ec27dae489687eac71f3d9d3, type: 3}
   m_Name: Nakano_Yotsuba
   m_EditorClassIdentifier: Assembly-CSharp::TutorData
-  tutorName: 
-  bio: 
-  nameplateColor: {r: 0, g: 0, b: 0, a: 0}
+  tutorName: Yotsuba
+  bio: Doesnt really excel in anything but will do her best to teach you any subject
+    you wish
+  nameplateColor: {r: 0.04261927, g: 0.6792453, b: 0, a: 1}
   defaultSprite: {fileID: 0}
   happySprite: {fileID: 0}
   thinkingSprite: {fileID: 0}
   wrongAnswerSprite: {fileID: 0}
   avatarIcon: {fileID: 0}
   greetingSound: {fileID: 0}
-  subjectsTaught: 
+  subjectsTaught: 000000000100000002000000030000000400000005000000

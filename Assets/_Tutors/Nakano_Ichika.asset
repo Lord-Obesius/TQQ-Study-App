@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dea4301ec27dae489687eac71f3d9d3, type: 3}
   m_Name: Nakano_Ichika
   m_EditorClassIdentifier: Assembly-CSharp::TutorData
-  tutorName: 
-  bio: 
-  nameplateColor: {r: 0, g: 0, b: 0, a: 0}
-  defaultSprite: {fileID: 0}
-  happySprite: {fileID: 0}
-  thinkingSprite: {fileID: 0}
-  wrongAnswerSprite: {fileID: 0}
-  avatarIcon: {fileID: 0}
+  tutorName: Ichika
+  bio: Specializes in English
+  nameplateColor: {r: 0.9529412, g: 1, b: 0, a: 1}
+  defaultSprite: {fileID: -8565324647857235161, guid: 60e0996b77bdf0549bab539cf90c833f, type: 3}
+  happySprite: {fileID: -740326639978389582, guid: 902494ed2c5a7a546be823fe166886d7, type: 3}
+  thinkingSprite: {fileID: 5266293033672934639, guid: 7132fcb6b1143394b8b3e6e3b9d8394d, type: 3}
+  wrongAnswerSprite: {fileID: -4023714360938199678, guid: 1428dc7326ac1b840a06ee6f6831de43, type: 3}
+  avatarIcon: {fileID: 7750787460528635389, guid: 18ba817f9a3e8e5489f45e79b25ce68a, type: 3}
   greetingSound: {fileID: 0}
-  subjectsTaught: 
+  subjectsTaught: 00000000
