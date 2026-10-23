@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3a14dd39bec5ac438bc4a4def2f92be, type: 3}
+  m_Name: International_Relations
+  m_EditorClassIdentifier: Assembly-CSharp::ClassSO
+  className: International Relations
+  subject: 1
+  assignedTutor: {fileID: 11400000, guid: 244e5443471dcd342bc634083e471adf, type: 2}
+  units:
+  - {fileID: 11400000, guid: 4bc4782bc58f74444b1a2df6403631a7, type: 2}
+  - {fileID: 11400000, guid: 603653e380df5c345ab74b8428a82758, type: 2}
