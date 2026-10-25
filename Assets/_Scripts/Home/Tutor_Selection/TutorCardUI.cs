@@ -3,27 +3,29 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(LayoutElement))]
+[RequireComponent(typeof(CanvasGroup))]
 public class TutorCardUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     private LayoutElement layoutElement;
+    private CanvasGroup canvasGroup;
 
     [Header("Width Settings")]
     public float normalWidth;
-    public float hoveredWidth; // Width when zoomed in
-    public float animSpeed;     // Speed of the smooth transition
+    public float hoveredWidth;
+    public float animSpeed;
 
     private float targetWidth;
 
     private void Awake()
     {
         layoutElement = GetComponent<LayoutElement>();
+        canvasGroup = GetComponent<CanvasGroup>();
         targetWidth = normalWidth;
         layoutElement.preferredWidth = normalWidth;
     }
 
     private void Update()
     {
-        // Smoothly lerp towards the target width every frame
         if (!Mathf.Approximately(layoutElement.preferredWidth, targetWidth))
         {
             layoutElement.preferredWidth = Mathf.Lerp(layoutElement.preferredWidth, targetWidth, Time.deltaTime * animSpeed);
@@ -33,7 +35,6 @@ public class TutorCardUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     public void OnPointerEnter(PointerEventData eventData)
     {
         targetWidth = hoveredWidth;
-        // Removed SetAsLastSibling() to prevent reshuffling!
     }
 
     public void OnPointerExit(PointerEventData eventData)
@@ -44,5 +45,11 @@ public class TutorCardUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     public void ResetWidth()
     {
         targetWidth = normalWidth;
+    }
+
+    // Set alpha instantly or use for external fading control
+    public void SetAlpha(float alpha)
+    {
+        if (canvasGroup != null) canvasGroup.alpha = alpha;
     }
 }

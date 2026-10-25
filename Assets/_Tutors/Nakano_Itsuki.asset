@@ -22,3 +22,5 @@ MonoBehaviour:
   avatarIcon: {fileID: 819290055355796575, guid: 4dad064284ab58f4493c387151d4f9c6, type: 3}
   greetingSound: {fileID: 0}
   subjectsTaught: 03000000
+  taughtClasses:
+  - {fileID: 11400000, guid: bd525604a56d9c44c9853703109ae0fa, type: 2}
