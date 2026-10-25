@@ -38,6 +38,11 @@ public class TutorCardUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public void OnPointerExit(PointerEventData eventData)
     {
+        ResetWidth();
+    }
+
+    public void ResetWidth()
+    {
         targetWidth = normalWidth;
     }
 }

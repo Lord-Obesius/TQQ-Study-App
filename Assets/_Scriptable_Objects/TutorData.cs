@@ -25,6 +25,9 @@ public class TutorData : ScriptableObject
 
     [Header("Subjects Taught")]
     public List<SubjectType> subjectsTaught;
+
+    [Header("Taught Classes")]
+    public List<ClassSO> taughtClasses;
 }
 
 // Subject categories enum for easy filtering
